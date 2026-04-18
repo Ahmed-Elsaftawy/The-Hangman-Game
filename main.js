@@ -304,7 +304,7 @@ const endGame = endGameMessage()
 
 function handePopup() {
     document.addEventListener("click", (e) => {
-        document.querySelector(".popup").style.display = "none";
+        document.querySelector(".popup").style.opacity = "0";
     })
 
 }
